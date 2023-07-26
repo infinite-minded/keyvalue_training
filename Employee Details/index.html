@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Add Employee Details | KeyValue</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <aside>
+          <header>
+            <img id="pagelogo" src="images/kv logo.png" alt="KeyValue Logo" />
+          </header>
+          <!-- <div id="addnav">
+          <img id="navlogo" src="images/icon.svg" alt="Add Details">
+          </div>
+          <div>
+            <label id="navmenu">Employee list</label>
+          </div> -->
+          <nav>
+            <a id="navbox" href=""
+              ><img
+                id="navlogo"
+                src="images/icon.svg"
+                alt="Add Employee Details"
+              />
+              Employee list</a
+            >
+          </nav>
+        </aside>
+      </section>
+      <section class="formside">
+        <div class="blanktop"></div>
+        <div>
+          <h2>Create Employee</h2>
+        </div>
+        <div class="form">
+          <div>
+            <label for="name">Employee Name</label>
+            <input type="text" placeholder="Employee Name" />
+          </div>
+          <div>
+            <label for="id">Employee ID</label>
+            <input type="text" placeholder="Employee ID" />
+          </div>
+          <div>
+            <label for="joiningdate">Joining Date</label>
+            <input type="text" placeholder="Joining Date" />
+          </div>
+          <div>
+            <label for="role">Role</label>
+            <select name="Role" id="role">
+              <option value="Choose Role">Choose Role</option>
+            </select>
+          </div>
+          <div>
+            <label for="status">Status</label>
+            <select name="Status" id="status">
+              <option value="Status">Status</option>
+            </select>
+          </div>
+          <div>
+            <label for="experience">Experience</label>
+            <input type="text" placeholder="Experience" />
+          </div>
+          <div>
+            <label for="address">Address</label>
+            <input type="text" placeholder="Address" />
+          </div>
+        </div>
+        <div id="buttons">
+          <input class="create" type="submit" value="Create" />
+          <input class="cancel" type="submit" value="Cancel" />
+        </div>
+      </section>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>

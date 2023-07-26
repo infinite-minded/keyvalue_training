@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+}
+
+#pagelogo {
+    width: 300px;
+}
+
+nav {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    background-color: #03aeee;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+}
+
+#navbox {
+    color: white;
+    margin: 10px;
+    padding-left: 5px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#navlogo {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px dotted white;
+}
+
+.formside {
+    background-color: #efefee;
+    width: calc(100vw - 300px);
+}
+
+.blanktop {
+    border: 1px solid white;
+    box-shadow: 5px 10px 18px #efefee;
+    margin: 0;
+    border-radius: 0;
+}
+
+section > div {
+    box-shadow: 5px 10px 18px #dfdfdf;
+    margin: 10px;
+    padding: 45px;
+    background-color: white;
+    border: 1px solid #efefee;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    width:32%;
+    margin: 5px;
+}
+
+input, select {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #efefee;
+    color: #707070;
+}
+
+#status {
+    color: #707070;
+}
+
+#role {
+    color: #707070;
+}
+
+#buttons input {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.create {
+    width: 105px;
+    background-color: #03aeee;
+    color: white;
+    border: 1px solid #03aeee;
+}
+
+.create:hover {
+    background-color: #b6e2f1;
+    color: black;
+}
+
+.cancel {
+    border: 1px solid grey;
+    background-color: white;
+    color: grey;
+}
+
+.cancel:hover {
+    background-color: rgb(209, 209, 209);
+    color: white;
+}
